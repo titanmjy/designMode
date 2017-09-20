@@ -1,4 +1,4 @@
-package com.jinyu.Observer;
+package com.jinyu.ObserverMode.Observer;
 
 import java.util.ArrayList;
 import java.util.List;

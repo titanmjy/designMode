@@ -1,4 +1,4 @@
-package com.jinyu.Observer;
+package com.jinyu.ObserverMode.Observer;
 
 /**
  * @Description: 主题接口
