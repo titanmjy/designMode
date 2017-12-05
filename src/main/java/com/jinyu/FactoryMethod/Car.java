@@ -7,4 +7,7 @@ package com.jinyu.FactoryMethod;
  * Version: V0.1
  */
 public interface Car {
+    public String getManufacturer();
+
+    public void run();
 }

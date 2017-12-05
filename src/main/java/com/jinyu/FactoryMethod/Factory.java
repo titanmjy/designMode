@@ -6,7 +6,7 @@ package com.jinyu.FactoryMethod;
  * @Date 2017/12/5 15:21
  * Version: V0.1
  */
-public abstract class Factory<T> {
+public interface Factory {
 
-    public abstract T makeCar();
+    public Car makeCar(Class c);
 }
