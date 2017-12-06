@@ -12,12 +12,12 @@ public class Product {
     private String partB;
     private String partC;
 
+
     public Product(String partA, String partB, String partC) {
         this.partA = partA;
         this.partB = partB;
         this.partC = partC;
     }
-
 
     @Override
     public String toString() {

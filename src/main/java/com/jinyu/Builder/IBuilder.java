@@ -1,10 +1,12 @@
 package com.jinyu.Builder;
 
+import com.jinyu.Builder.Product;
+
 /**
  * @Description:
- *              建造器接口，定义product的表示，getProduct()方法
- *              如果写成抽象类方式，getProduct()方法可以用模板方法模式给实现了
- *              另外的产品的具体部件构造，给接口（子类）实现
+ *              建造器接口，定义product的表示和组件构建接口，
+ *              表示，getProduct()方法
+ *              组件构建，给Director实例组合调用来构造product
  * @Author jinyu.mei
  * @Date 2017/12/6 14:48
  * Version: V0.1
