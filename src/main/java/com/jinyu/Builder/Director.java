@@ -19,4 +19,16 @@ public class Director {
         this.builder.buildPartB();
         this.builder.buildPartC();
     }
+
+    /**
+     * 新的构建方法
+     *  不同的组件构建方式，且可以直接返回产品
+     * @return
+     */
+    public Product newConstruct(){
+        this.builder.buildPartC();
+        this.builder.buildPartA();
+        this.builder.buildPartB();
+        return this.builder.getProduct();
+    }
 }
