@@ -25,6 +25,7 @@ public class Test {
                 new Class<?>[]{ISubject.class},
                 new MyInvocationHandler(new RealSubject()));
         subject3.doSomething("2");
-        
+
+
     }
 }
