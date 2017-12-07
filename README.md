@@ -11,7 +11,7 @@ Singleton（单例）
 结构型  
 Adapter(适配器）  
 Decorator（装饰者）  
-Proxy（代理） 
+Proxy（代理）   
 Bridge（桥接）  
 Composite（组合）  
 Façade（外观）  
